@@ -43,3 +43,13 @@ console.log(favourite);
 console.log(secondFavorite);
 console.log(others);
 
+let favouriteFoods = {
+  brian: "pizza",
+  anna: "pasta",
+  sarah: "vegetarian",
+  andrea: "steak"
+};
+let {brian, anna, ...rest} = favouriteFoods;
+console.log(brian);
+console.log(anna);
+console.log(rest);
